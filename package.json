@@ -1,0 +1,28 @@
+{
+  "name": "diary-notes",
+  "version": "1.0.0",
+  "description": "Diary Notes App",
+  "main": "server.js",
+  "scripts": {
+    "install-server": "cd backend && npm ci",
+    "start-server": "cd backend && npm run start",
+    "install-client": "cd frontend && && npm ci",
+    "build-client": "cd frontend && npm run build",
+    "start-client": "cd frontend && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senghor/diary.git"
+  },
+  "keywords": [
+    "Diary",
+    "Notes"
+  ],
+  "author": "Albert Senghor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/senghor/diary/issues"
+  },
+  "homepage": "https://github.com/senghor/diary#readme"
+}
