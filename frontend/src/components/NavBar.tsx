@@ -19,7 +19,7 @@ const NavBar = ({loggedInUser, onSignUpClicked, onLoginClicked, onLogoutClicked,
             <Container>
                 <Navbar.Brand as={Link} to="/">
                 <Nav>
-                        Diary
+                    Note Book App     
                 </Nav>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="main-navbar" />
