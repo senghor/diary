@@ -1,1 +1,1 @@
-# notes# diary
+# A personal note taking app 
