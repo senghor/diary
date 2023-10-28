@@ -4,7 +4,7 @@
   "description": "Diary Notes App",
   "main": "server.js",
   "scripts": {
-    "install-server": "cd backend && npm ci",
+    "build-server": "cd backend && npm ci && npm run build",
     "start-server": "cd backend && npm run start",
     "install-client": "cd frontend && && npm ci",
     "build-client": "cd frontend && npm run build",
