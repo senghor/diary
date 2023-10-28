@@ -6,7 +6,7 @@
   "scripts": {
     "build-server": "cd backend && npm ci && npm run build",
     "start-server": "cd backend && npm run start",
-    "install-client": "cd frontend && && npm ci",
+    "install-client": "cd frontend && npm ci",
     "build-client": "cd frontend && npm run build",
     "start-client": "cd frontend && npm run start",
     "test": "echo \"Error: no test specified\" && exit 1"
