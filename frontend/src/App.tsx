@@ -22,7 +22,7 @@ function App() {
   useEffect(() => {
     async function fetchLoggedInUser() {
       try {
-        const user = await NoteApi.getLoggenInUser()
+        const user = await NoteApi.getLoggedInUser()
         setLoggedInuser(user)
       } catch(error) {
         console.log(error)
