@@ -3,6 +3,7 @@ import { Note } from "../models/note"
 import { User } from "../models/user"
 
 async function fetchData(input:RequestInfo, init?: RequestInit){
+    console.log(input)
     const response:Response = await fetch(input,init)
     if(response.ok) { 
         return response
